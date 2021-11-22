@@ -1,0 +1,29 @@
+{
+  "name": "hmr-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack serve"
+  },
+  "author": "petrvelky@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.2",
+    "@types/react-dom": "^17.0.11",
+    "html-webpack-plugin": "^5.5.0",
+    "react-refresh": "^0.10.0",
+    "react-refresh-typescript": "^2.0.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
